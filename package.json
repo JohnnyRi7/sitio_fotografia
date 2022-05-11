@@ -8,5 +8,8 @@
     "compile:sass": "sass --watch scss/style.scss css/style.css"
   },
   "author": "johnny-rivero",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "boostrap": "^2.0.0"
+  }
 }

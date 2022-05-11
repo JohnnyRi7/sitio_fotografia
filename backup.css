@@ -51,7 +51,7 @@
 }
 /* -------------------------------CARROUSEL---------------------- */
 .carrousel img{
-   width:750px ;
+width:750px ;
 }
 
 /* -------------------------------FOOTER ------------------------*/
@@ -69,7 +69,7 @@
   list-style-type: none;
 }
 .site-footer h6 {
-  color: rgb(117, 125, 123);
+  color: rgb(255, 255, 255);
   font-size: 16px;
   font-family: "Monserrat";
   text-transform: uppercase;
