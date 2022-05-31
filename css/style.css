@@ -40,6 +40,7 @@ body .header:before {
 .carousel img {
   width: 100%;
   margin: auto;
+  padding-left: 2rem;
 }
 
 /* ------------------------SOBRE MI ---------------------- */
@@ -53,46 +54,136 @@ body .header:before {
 
 /* --------------------SERVICIOS------------------ */
 /* -------------------------------FOOTER ------------------------*/
+
+.first {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+}
+
+    .first h4 {
+        font-size: 20px;
+        letter-spacing: 6px;
+        position: relative;
+        margin-bottom: 20px;
+        font-size: 1.6em;
+        color: rgba(255, 255, 255, 0.97);
+        padding-bottom: 0.5em;
+    }
+
+        .first h4::after {
+            content: '';
+            background: #11e823;
+            width: 20%;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+    .first p {
+        font-size: 14px;
+    }
+
+
+
+.third {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+}
+
+
+    .third h4 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        position: relative;
+        margin-bottom: 20px;
+        font-size: 1.6em;
+        color: #fff;
+        padding-bottom: 0.5em;
+    }
+
+
+        .third h4::after {
+            content: '';
+            background: #11e823;
+            width: 20%;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: 80%;
+        }
+
+
+
+    .third li {
+        list-style: none;
+        padding-bottom: 15px;
+    }
+
+
+    .third a {
+        color: rgb(206, 206, 206);
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 14px;
+        transition: 0.2s;
+    }
+
+
+        .third a:hover {
+            color: #fff;
+            transition: 0.2s;
+            text-shadow: 1px 1px 20px rgba(0,0,0,1);
+        }
+
+
+@media screen and (max-width:1000px) {
+    .first {
+        text-align: center;
+    }
+
+        .first h4::after {
+            left: 40%;
+        }
+}
+
+@media screen and (max-width:1000px) {
+    .third {
+        text-align: center;
+    }
+
+        .third h4::after {
+            left: 40% !important;
+        }
+}
 .site-footer {
   padding-top: 45px;
   font-size: 15px;
   line-height: 24px;
-  color: #737373;
+  color: #d9dbd9;
 }
 
-.contact {
-  list-style-type: none;
-}
 
-.site-footer h6 {
-  color: rgb(252, 249, 249);
-  font-size: 16px;
-  font-family: "Monserrat";
-  text-transform: uppercase;
-  margin-top: 1px;
-  letter-spacing: 0.5px;
-}
 
-.footer-links.inline li {
-  display: inline-block;
-}
+
 
 .site-footer .social-icons {
   text-align: right;
+  margin-right: 3rem;
 }
 
-.site-footer .social-icons a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  margin-left: 6px;
-  margin-right: 0;
-  border-radius: 100%;
-  background-color: #676869;
-}
+
 
 .copyright-text {
   margin: 0;
+  /* margin-left: 4rem */;
+  
 }
 
 @media (max-width: 991px) {
@@ -122,6 +213,20 @@ body .header:before {
     font-weight: 600;
   }
 }
+
+.margin {
+    margin-left: 20px;
+}
+
+.line {
+    height:2px;
+    background-color:rgb(206,206,206);
+    width:100%;
+}
+
+
+
+/* ------------------PORTFOLIO----------- */
 .album, .album-especial {
   background-color: rgba(255, 63, 5, 0.149);
   color: rgb(252, 249, 249);
@@ -131,7 +236,7 @@ body .header:before {
 }
 
 .album-especial {
-  background-color: rgba(72, 255, 5, 0.149);
+  background-color: rgba(255, 63, 5, 0.149);
 }
 
 .servicios {
